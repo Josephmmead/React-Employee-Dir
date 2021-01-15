@@ -1,0 +1,12 @@
+.searchbox input {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.searchbox button{
+    border: 1px solid Black;
+}
+.searchbox button:hover {
+    background-color: rgb(49, 211, 122);
+    color:white;
+}

@@ -1,11 +1,8 @@
-import axios from "axios";
-
-// Export an object containing methods we'll use for accessing the GitHub Jobs API
+import axios from 'axios';
 
 export default {
-  randomUser: function() {
-    return axios.get(
-        'https://randomuser.me/api/'
-    );
-  }
-};
+    getUsers: function() {
+        return axios.get("https://randomuser.me/api/?results=200&nat=us&inc=gender,name,email,picture");
+      }
+
+    };
